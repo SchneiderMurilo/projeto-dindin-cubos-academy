@@ -31,7 +31,6 @@ O sistema trata-se de uma aplicação para controle de finanças pessoais. As fu
 
 ## Detalhamento de Requisitos:
 
-# Pessoa A
 
 ### Cadastro de um novo usuário:
 
