@@ -45,8 +45,6 @@ Ao clicar no botão **Cadastrar** você deverá enviar os dados do formulário p
 
 ---
 
-# Pessoa A
-
 ### Login de usuário:
 
 1. Na página de login de usuário, temos um botão chamado **Cadastre-se**, esse botão deve levar o usuário para a tela de cadastrar um novo usuário **(sign-up)**:
@@ -57,8 +55,6 @@ Ao clicar no botão **Cadastrar** você deverá enviar os dados do formulário p
 ![](https://i.imgur.com/vvnluj6.png)
 
 ---
-
-# Pessoa B
 
 ### Página principal (main):
 
@@ -77,8 +73,6 @@ Veja na imagem abaixo:
 ![](https://i.imgur.com/SYm8uuY.png)
 
 ---
-
-# Pessoa B
 
 ### Cadastro de uma nova transação:
 
@@ -101,8 +95,6 @@ Após o usuário clicar no botão **confirmar**, uma nova transação deve ser i
 
 ---
 
-# Pessoa B
-
 ### Editar uma transação:
 
 Para editar uma transação o usuário deverá clicar no ícone do lápis, que se encontrará na tabela de listagem de transações:
@@ -120,8 +112,6 @@ Ao clicar no ícone de editar uma transação, o modal (que foi utilizado para a
 Após validar os campos e o usuário clicar em confirmar, a transação deverá ser atualizada na `API`.
 
 ---
-
-# Pessoa B
 
 ### Excluir uma transação:
 
@@ -141,8 +131,6 @@ Ao clicar nesse ícone, um "popup" irá aparecer para que o usuário confirme ou
 
 ---
 
-# Pessoa B
-
 ### Listagem de transações:
 
 As transações registradas por meio dos endpoints da `api`, deverão ser listadas numa tabela que ficará ao centro da página, nessa tabela teremos 6 colunas, sendo:
@@ -159,8 +147,6 @@ As transações registradas por meio dos endpoints da `api`, deverão ser listad
 Cada linha da tabela representa uma transação. Portanto cada botão representa a ação para um registro.
 
 ---
-
-# Pessoa A
 
 #### Cabeçalho da tabela:
 
@@ -179,8 +165,6 @@ Veja abaixo o ícone que representa que a coluna está sendo ordenada:
 
 ---
 
-# Pessoa A
-
 ### Resumo das transações:
 
 O resumo das transações devem ser exibidos numa "box", onde teremos apenas 3 informações:
@@ -195,8 +179,6 @@ Veja na imagem abaixo, como deve ser o resumo;
 ![](https://i.imgur.com/6Rlu6a7.png)
 
 ---
-
-# Pessoa A
 
 ### Filtros:
 
@@ -229,8 +211,6 @@ Veja na imagem abaixo os botões:
 
 ---
 
-# Pessoa B
-
 ### Editar perfil de usuário:
 
 > **Warning**: A edição do perfil é uma funcionalidade extra, não é obrigatório implementar.
@@ -251,8 +231,6 @@ Veja na imagem o modal já preenchido:
 ![](https://i.imgur.com/aWx7T9C.png)
 
 ---
-
-# Pessoa A
 
 ### Logout e nome de usuário
 
