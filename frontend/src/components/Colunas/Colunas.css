@@ -1,0 +1,30 @@
+.header-lista-principal {
+    width: 960px;
+    height: 60px;
+
+    margin-top: 80px;
+    margin-left: 105px;
+
+    box-shadow: 2px 2px 11px 1px rgba(0, 0, 0, 0.2);
+    background-color: #FAFAFA;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    padding-left: 28px;
+    padding-right: 140px;
+}
+
+.header-lista-principal h3 {
+    width: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,87 @@
+.logo {
+    margin-top: 45px;
+    margin-left: 100px;
+}
+
+.container-principal {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: linear-gradient(to right, #05EDE3, #645FFB);
+}
+
+.header-principal {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.perfil-principal {
+    display: flex;
+    align-items: center;
+
+    margin-top: 45px;
+    margin-right: 100px;
+}
+
+.perfil-principal span {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    margin-right: 15px;
+}
+
+.perfil-principal img {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+.body-principal {
+    width: 100%;
+    height: 100%;
+
+    margin-top: 45px;
+
+    flex-grow: 1;
+
+    padding-bottom: 50px;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    background-color: white;
+}
+
+.modal-registro {
+    z-index: 5;
+    width: 100%;
+    height: 100hv;
+
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal-registro-conteudo {
+    z-index: 5;
+    width: 300px;
+    height: 500px;
+
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

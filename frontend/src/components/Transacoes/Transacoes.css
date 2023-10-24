@@ -1,0 +1,55 @@
+.conteudo-lista {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    min-width: 960px;
+    min-height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding-left: 28px;
+
+    margin-left: 102px;
+
+    border-bottom: 1px solid gray;
+}
+
+.conteudo-lista h3 {
+    width: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.botoes-lista {
+    margin-right: 25px;
+    margin-left: 45px;
+}
+
+.conteudo-lista img {
+    margin-left: 5px;
+
+    cursor: pointer;
+}
+
+.conteudo-lista img:hover {
+    opacity: 0.8;
+}
+
+.sem-transacao {
+    font-size: 18px;
+}
+
+.rolar-transacoes {
+    display: flex;
+    flex-direction: column;
+
+    height: 420px;
+
+    overflow-y: auto;
+}

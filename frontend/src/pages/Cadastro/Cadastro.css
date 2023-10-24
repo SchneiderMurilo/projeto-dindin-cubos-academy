@@ -1,0 +1,120 @@
+.background-image-cadastro {
+    width: 100%;
+    min-height: 100vh;
+
+    padding-bottom: 30px;
+
+    background-image: url('../../imgs/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    margin-top: 45px;
+    margin-left: 100px;
+}
+
+.container-cadastro-page {
+    display: flex;
+
+    margin-top: 10px;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.cadastro-container {
+    width: 450px;
+    height: 600px;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastro-container h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: #7978D9;
+
+    font-size: 24px;
+
+    margin-bottom: 20px;
+}
+
+.input-cadastro-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 390px;
+}
+
+.input-cadastro-container input {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+
+    height: 40px;
+    margin-bottom: 30px;
+    padding: 10px;
+
+    font-size: 18px;
+}
+
+.input-cadastro-container label {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.cadastro-container h5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+
+    font-size: 14px;
+    margin-top: 12px;
+
+    color: #7978D9;
+}
+
+.cadastro-container h5 a {
+    text-decoration: none;
+    color: #7978D9;
+}
+
+.cadastro-container button {
+    font-weight: 700;
+
+    width: 390px;
+    height: 45px;
+
+    margin-top: 10px;
+
+    color: white;
+    background-color: #7978D9;
+
+    border: none;
+}
+
+.cadastro-container button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.erro-cadastro {
+    color: red;
+    position: absolute;
+
+    margin-top: 320px;
+
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}

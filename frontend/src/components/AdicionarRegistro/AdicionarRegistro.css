@@ -1,0 +1,21 @@
+.button-adicionar-registro {
+    width: 235px;
+    height: 40px;
+
+    color: white;
+    background-color: #645FFB;
+
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+    margin-top: 18px;
+    margin-left: 40px;
+    margin-right: 100px;
+}
+
+.button-adicionar-registro:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

@@ -1,0 +1,77 @@
+.conteudo-popup {
+    position: relative;
+}
+
+.quadrado-popup {
+    position: absolute;
+
+    margin-left: 41px;
+
+    z-index: 5;
+
+    width: 12px;
+    height: 12px;
+
+    transform: rotate(45deg);
+
+    background-color: #E4F2FD;
+}
+
+.retangulo-popup {
+    width: 120px;
+    height: 60px;
+
+    position: absolute;
+
+    margin-top: 5px;
+    margin-left: -50px;
+
+    background-color: #E4F2FD;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+}
+
+.retangulo-popup h2 {
+    font-size: 12px;
+
+    margin-bottom: 2px;
+
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+
+.buttons-popup button {
+    width: 45px;
+    height: 18px;
+
+    font-size: 10px;
+
+    margin: 3px;
+
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+
+.button-popup-sim {
+    background-color: #3A9FF1;
+}
+
+.button-popup-nao {
+    background-color: #FF576B;
+}
+
+.buttons-popup button:hover {
+    cursor: pointer;
+
+    opacity: 0.8;
+}
+
+.hidden-popup {
+    display: none;
+}
